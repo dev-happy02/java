@@ -1,3 +1,15 @@
+/* 
+printing stars  
+output 
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+
+*/
+
+
 import java.util.Scanner;
 
 public class starpattern {
