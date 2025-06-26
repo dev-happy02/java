@@ -40,7 +40,7 @@
 import java.util.Scanner;
     public class funtmethod 
 {
-    public static int calculatesum(int a, int b ) {
+    public static int calculatesum(int a, int b ) {  // parameters or formal parameters
         int sum = a+b;
         System.out.println("sum is "+ sum );
         return sum;
@@ -51,7 +51,8 @@ import java.util.Scanner;
         int a = sc.nextInt();
         System.out.print("enter second number :");
         int b = sc.nextInt();
-        calculatesum(a, b );
+        calculatesum(a, b );  // arguments or actual parameters
+        sc.close();
     }
 }
 

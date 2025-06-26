@@ -386,13 +386,13 @@ class Test {
                 int roll = in.nextInt();
                 switch (rel) {
                         case  "happy":
-                               System.out.println("in relationship "); 
+                               System.out.println("b.tech "); 
                                 break;
                         case "aman":
-                                System.out.println("randwa ho gail ba ");
+                                System.out.println("BCA ");
                                 break;
                         case "princess":
-                                System.out.println(" single ba ");
+                                System.out.println("MBA ");
                                 switch (roll) {
                                         case 1 :
                                                 System.out.println("12205899");
@@ -403,7 +403,7 @@ class Test {
                                 }
                                 break;             
                         default:
-                                System.out.println("muthal log ");
+                                System.out.println("In job  ");
                                 break;
                 }
         }      
@@ -412,23 +412,26 @@ class Test {
 
 
 ## funtion and method 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```java
+import java.util.Scanner;
+    public class funtmethod 
+{
+    public static int calculatesum(int a, int b ) {  // parameters or formal parameters
+        int sum = a+b;
+        System.out.println("sum is "+ sum );
+        return sum;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter first number :");
+        int a = sc.nextInt();
+        System.out.print("enter second number :");
+        int b = sc.nextInt();
+        calculatesum(a, b );  // arguments or actual parameters
+        sc.close();
+    }
+}
+```
 
 
 
