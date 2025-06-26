@@ -1,6 +1,18 @@
+/*
+printing char pattern...
+output 
+A 
+B C 
+D E F 
+G H I J 
+K L M N O
+
+ */
+
+
 import java.util.Scanner;
 
-public class chrpttern {
+public class chrpattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter the char :");
