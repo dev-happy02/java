@@ -28,7 +28,6 @@ class Test {
 
 
 
-
 ```java
 import java.util.Scanner;
 
@@ -411,7 +410,10 @@ class Test {
 ```
 
 
-## funtion and method 
+
+
+# funtion and method 
+## sum of two numbers
 ```java
 import java.util.Scanner;
     public class funtmethod 
@@ -433,9 +435,46 @@ import java.util.Scanner;
 }
 ```
 
+## product of two number 
+```java
+
+public class productoftwonumbers {
+    public static int multiply(int a, int b) {
+        int product = a*b;
+        System.out.println("product is " + product);
+        return product;
+    }
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+        multiply(a,b);
+    }
+}
+
+```
+## swaping of two numbers
+```java
+
+public class swap {
+    public static void swaping(int a , int b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        swaping(a,b);
+    }
+}
 
 
-## Array
+
+```
+
+
+# Array
 
 
 ```java 
