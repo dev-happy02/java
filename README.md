@@ -568,6 +568,49 @@ class Test{
         }
 }
 ```
+> largest number in the given array 
+```java
+
+public class largestnum {
+    public static int largest(int num [] ) {
+        int lag  = Integer.MIN_VALUE;
+        for (int i = 0; i < num.length; i++) {
+            if(lag < num[i]){
+                lag = num[i];
+            }
+        }
+        return lag;
+    }
+    public static void main(String[] args) {
+        int num [] = {23,43,25,2,4,6,54};
+        System.out.println("largest number is : " + largest(num));
+    }
+}
+
+```
+> smallest number in the given array 
+
+```java
+
+public class smallestnum {
+    public static int smallest(int num []) {
+        int small =Integer.MAX_VALUE;
+        for (int i = 0; i < num.length; i++) {
+            if(small > num[i]){
+                small = num[i];
+            }
+        }
+        return small ;
+    }
+    public static void main(String[] args) {
+        int num [] = {34,54,-23,-56,76};
+        System.out.println("smallest num is : "+smallest(num));
+    }
+}
+
+
+```
+
 
 
 
