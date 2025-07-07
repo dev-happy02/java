@@ -1,4 +1,15 @@
-# Java Pracice : 
+# Java  : 
+
+
+
+
+- Java is a popular, object-oriented programming language.
+- It is platform-independent due to the Java Virtual Machine (JVM).
+- Java supports multithreading, security, and automatic memory management.
+- It is widely used in web apps, Android apps, and enterprise systems.
+- Java follows the WORA principle.
+
+
 
 
 ## printing hello world ....
