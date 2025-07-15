@@ -20,3 +20,14 @@ public class revercearray {
         System.out.println( );
     }
 }
+
+
+
+
+
+
+
+
+
+
+

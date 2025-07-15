@@ -107,6 +107,13 @@ class Test{
 
 
 ## Java is UNICODE LANG...
+
+- Java uses Unicode to represent characters internally. This means:
+- Each char in Java is a 16-bit Unicode character.
+- Java source code files can include characters from many different languages and scripts (e.g., English, Hindi, Chinese).
+- Unicode support helps Java be platform-independent and internationalization-friendly.
+
+
 ```java
 
 class Test {
