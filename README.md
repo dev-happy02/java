@@ -574,6 +574,14 @@ public class invertedhalfpyramid
 
 # Array
 
+- An array is a collection of elements stored at contiguous memory locations. All elements are of the same data type, and each element can be accessed using its index
+
+- Fixed size (in most languages)
+- Indexed access (0-based in most languages)
+- Same data type elements
+- Stored in continuous memory blocks
+
+
 
 ```java 
 class Test{
@@ -720,6 +728,8 @@ class Test{
     }
 }
 ```
+
+# sorting
 
 
 
